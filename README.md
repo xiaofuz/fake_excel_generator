@@ -10,8 +10,8 @@
 #### 1.1 安装依赖
 ```bash
 # 克隆仓库
-git clone https://github.com/[你的GitHub用户名]/[仓库名].git
-cd [仓库名]
+git clone https://github.com/xiaofuz/fake_excel_generator.git
+cd fake_excel_generator
 
 # 安装依赖（建议先创建虚拟环境）
 # 创建虚拟环境（可选但推荐）
