@@ -1,4 +1,4 @@
-# easy
+# fake_excel_generator
 
 ---
 
@@ -24,25 +24,8 @@ source venv/bin/activate
 
 # 安装Django及项目依赖
 pip install -r requirements.txt
-# 若没有requirements.txt，直接安装Django
-pip install django==[你的Django版本，比如4.2.7]
-```
 
-#### 1.2 配置数据库（核心：解决数据库删除/重建问题）
-项目默认使用 SQLite（轻量无需额外安装），若误删数据库文件或需重建，按以下步骤操作：
-
-##### 步骤1：确认数据库配置（settings.py）
-打开项目根目录下的 `[项目名]/settings.py`，确认数据库配置（默认如下，无需修改）：
-```python
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',  # 数据库文件路径，删除后可重建
-    }
-}
-```
-
-##### 步骤2：重建/初始化数据库
+##### 步骤1：重建/初始化数据库
 ```bash
 # 1. 生成数据库迁移文件（根据models.py创建表结构）
 python manage.py makemigrations
@@ -50,7 +33,7 @@ python manage.py makemigrations
 # 2. 执行迁移，创建数据库及表（核心：重建被删除的数据库）
 python manage.py migrate
 
-# 可选：创建超级管理员（用于登录Django后台）
+# 3.创建超级管理员（用于登录Django后台）
 python manage.py createsuperuser
 # 按提示输入用户名、邮箱、密码即可
 ```
@@ -97,25 +80,15 @@ DATABASES = {
 }
 ```
 需额外安装依赖：`pip install mysqlclient`
-
-## 目录结构（可选）
-```
-[仓库名]/
-├── [项目名]/          # 项目核心配置
-│   ├── settings.py    # 数据库/全局配置
-│   └── urls.py        # 路由配置
-├── [应用名]/          # 业务应用
-│   ├── models.py      # 数据库模型
-│   └── views.py       # 视图逻辑
-├── db.sqlite3         # SQLite数据库文件（删除后可通过migrate重建）
-└── manage.py          # Django核心管理脚本
-```
-
 ---
 
-### 总结
-1. 核心流程：**环境搭建 → 数据库配置/重建（makemigrations + migrate） → 启动项目**，重点覆盖了数据库删除后的重建操作；
-2. 适配新手：包含虚拟环境、常见报错解决方案，无需额外配置复杂的数据库服务；
-3. 可拓展：预留了切换 MySQL 的配置示例，后续可根据需求补充。
+V:myzytop
+邮箱：981276532@qq.com
 
-你只需要替换模板中 `[你的XXX]` 占位符，补充项目的核心功能描述，就能直接用在 GitHub 仓库的 README.md 里了。如果需要针对你的工具功能（比如 RPA/表格处理）定制更贴合的说明，告诉我具体功能，我再帮你调整。
+如果对你有帮助，您的支持是我最大的动力。
+在线
+
+<img width="803" height="979" alt="Clipboard - 2026-02-09 14 00 37" src="https://github.com/user-attachments/assets/def710c1-091e-4ad8-b835-21ba4b5b88a1" />
+<img width="788" height="960" alt="Clipboard - 2026-02-09 14 00 24" src="https://github.com/user-attachments/assets/43a64312-a275-4923-9e43-3489d5b13ae3" />
+
+
