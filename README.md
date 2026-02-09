@@ -82,8 +82,8 @@ DATABASES = {
 需额外安装依赖：`pip install mysqlclient`
 ---
 
-V:myzytop
-邮箱：981276532@qq.com
+V:`myzytop`
+邮箱：`981276532@qq.com`
 
 如果对你有帮助，您的支持是我最大的动力。
 在线
