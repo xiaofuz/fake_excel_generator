@@ -10,7 +10,7 @@
 #### 1.1 安装依赖
 ```bash
 # 克隆仓库
-git clone https://github.com/xiaofuz/fake_excel_generator.git
+git clone https://github.com/leo-pydev/fake_excel_generator.git
 cd fake_excel_generator
 
 # 安装依赖（建议先创建虚拟环境）
