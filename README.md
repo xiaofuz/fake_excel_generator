@@ -87,8 +87,7 @@ V:myzytop
 
 如果对你有帮助，您的支持是我最大的动力。
 在线
-
-<img width="803" height="979" alt="Clipboard - 2026-02-09 14 00 37" src="https://github.com/user-attachments/assets/def710c1-091e-4ad8-b835-21ba4b5b88a1" />
-<img width="788" height="960" alt="Clipboard - 2026-02-09 14 00 24" src="https://github.com/user-attachments/assets/43a64312-a275-4923-9e43-3489d5b13ae3" />
-
+| 截图1 | 截图2 |
+| :---: | :---: |
+| ![Clipboard - 2026-02-09 14 00 37](https://github.com/user-attachments/assets/def710c1-091e-4ad8-b835-21ba4b5b88a1 =300x400) | ![Clipboard - 2026-02-09 14 00 24](https://github.com/user-attachments/assets/43a64312-a275-4923-9e43-3489d5b13ae3 =300x400) |
 
