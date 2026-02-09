@@ -89,5 +89,5 @@ V:myzytop
 在线
 | 截图1 | 截图2 |
 | :---: | :---: |
-| ![Clipboard - 2026-02-09 14 00 37](https://github.com/user-attachments/assets/def710c1-091e-4ad8-b835-21ba4b5b88a1 =300x400) | ![Clipboard - 2026-02-09 14 00 24](https://github.com/user-attachments/assets/43a64312-a275-4923-9e43-3489d5b13ae3 =300x400) |
+| ![Clipboard - 2026-02-09 14 00 37](https://github.com/user-attachments/assets/def710c1-091e-4ad8-b835-21ba4b5b88a1) | ![Clipboard - 2026-02-09 14 00 24](https://github.com/user-attachments/assets/43a64312-a275-4923-9e43-3489d5b13ae3) |
 
